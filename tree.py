@@ -61,6 +61,9 @@ class Node:
             for child in top.children:
                 queue.append(child)
 
+    def __repr__(self):
+        return f'<tree.Node object value: {self.value}>'
+
 
 # node1 = Node("root")
 # node2 = Node("child")
